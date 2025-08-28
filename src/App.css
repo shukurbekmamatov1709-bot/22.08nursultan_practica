@@ -5,7 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
 
+  background-color: black;
+}
 .productForm {
   background: linear-gradient(180deg, #d9c8ff 0%, #b497ff 100%);
   border-radius: 20px;
@@ -60,7 +63,7 @@
   border: 1px solid black;
   font-size: 14px;
   background: #5a13c8;
-  color: #fff;
+  color: red;
   transition: background 0.3s;
 }
 
