@@ -1,0 +1,93 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.productForm {
+  background: linear-gradient(180deg, #d9c8ff 0%, #b497ff 100%);
+  border-radius: 20px;
+  padding: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin:30px;
+}
+.productForm_field label {
+  font-size: 20px;  
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.productForm_field {
+  display: flex;
+  flex-direction: column; /* label сверху, input снизу */
+}
+.productForm_field input {
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.productForm_inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.productForm_inputs > :last-child {
+  grid-column: 1 / -1; 
+}
+
+.productForm_button {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+
+.knopca, .submit-btn {
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  font-size: 14px;
+  background: #5a13c8;
+  color: #fff;
+}
+
+.knopca:hover, .submit-btn:hover {
+  background: rgba(90, 19, 200, 0.8);
+}
+.app-container {
+background: linear-gradient(180deg, #d9c8ff 0%, #b497ff 100%);
+  border-radius: 20px;
+  padding: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+  max-width:900px;
+  height: 350px;
+   margin:30px;
+ 
+
+}
+#dobavit{
+
+   padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  font-size: 14px;
+  background: #5a13c8;
+  color: #fff;
+  align-self: flex-end; 
+  margin-top:230px;    
+margin-left: 650px;
+
+}
